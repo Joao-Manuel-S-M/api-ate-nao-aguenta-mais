@@ -1,0 +1,19 @@
+:root {
+    --color-bgrepo: #141D2F;
+    --color-bgcard: #1E2A47;
+    --color-loginbtn: #0079FF;
+    --color-btnhover: #60ABFF;
+    --color-inf: #c7cad1;
+    --color-white: #fff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background-color: var(--color-bgrepo);
+}

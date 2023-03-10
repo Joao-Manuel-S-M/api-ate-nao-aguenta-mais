@@ -1,0 +1,189 @@
+#content {
+    max-width: 730px;
+    margin: 0 auto;
+    font-family: 'Space Mono';
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.card {
+    background-color: var(--color-bgcard);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 419px;
+    justify-content: center;
+}
+
+.card .img {
+    width: 117px;
+    height: 117px;
+    border-radius: 100%;
+}
+
+.content-inf {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.infs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+    column-gap: 110px;
+    margin-left: 30px;
+}
+
+.name {
+    font-size: 26px;
+    font-weight: 00;
+    color: var(--color-white);
+}
+
+.date {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-loginbtn);
+}
+
+.about {
+    color: var(--color-inf);
+}
+
+
+
+form {
+    height: 69px;
+    border-radius: 15px;
+    background-color: var(--color-bgcard);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 20px 0 20px;
+}
+
+form .iconsearch {
+    width: 21px;
+    height: 21px;
+    margin: 0 1.5vw 0 1vw;
+}
+
+form .inputtext {
+    border: none;
+    font-family: 'Space Mono';
+    background-color: var(--color-bgcard);
+    color: var(--color-white);
+    max-width: 610px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.inputtext:focus {
+    box-shadow: 0;
+    outline: 0;
+    
+}
+
+.inputtext::placeholder {
+    color: var(--color-white);
+}
+
+.inputtext:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0 30px var(--color-bgcard) inset;
+    -webkit-text-fill-color:  var(--color-white);
+}
+
+form .inputbtn {
+    width: 106px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--color-loginbtn);
+    font-family: 'Space Mono';
+    color: var(--color-white);
+    
+}
+
+.inputbtn:hover {
+    background-color: var(--color-btnhover);
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 20px;
+}
+
+
+.activities {
+    max-width: 442px;
+    width: 100%;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bgrepo);
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.activities .items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 55px 0 30px;
+}
+
+.items span {
+    font-size: 13px;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+.items h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.group-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 80px;
+    max-width: 400px;    
+    align-items: center;
+    
+}
+
+.pair-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: nowrap;
+    
+}
+
